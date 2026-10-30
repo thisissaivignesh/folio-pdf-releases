@@ -1,0 +1,16 @@
+{
+ "version": "1.5.0",
+ "engine": "6f3bfa2d1b0a6e0b",
+ "published": "2026-10-30",
+ "notes": "- **Instant edge glide.** Your touchpad waits about a quarter of a second at the edge before it starts gliding. Olai now reads where your fingers are on the touchpad and starts gliding itself the moment they reach the top or bottom edge, at exactly the speed you were scrolling, and stops the instant you lift them or move them back. On touchpads where Olai can't read finger positions, the touchpad's own glide is used as before. Turn it on or off under View \u2192 Touchpad scrolling \u2192 Instant edge glide; Help \u2192 About shows whether Olai can read your touchpad.\n- **Smooth scrolling.** Each scroll step now slides instead of jumping, so scrolling and gliding look smooth (View \u2192 Touchpad scrolling \u2192 Smooth scrolling).\n- The scroll speed choices moved to View \u2192 Touchpad scrolling.",
+ "patch": {
+  "file": "folio-patch-1.5.0.zip",
+  "sha256": "76b84c1445c31e87a4d1e4ac5f52bd0512b5f7ecfe089baf19e85a6a49cecbbc",
+  "size": 124217
+ },
+ "full": {
+  "file": "Olai-Setup-1.5.0.exe",
+  "sha256": "dc38fbe0400d12df63e90a51b49e10481f38ad8f231007114a5fa47be097a140",
+  "size": 53162099
+ }
+}
